@@ -1,0 +1,29 @@
+{
+    "name": "mihaildev/yii2-user",
+    "keywords": ["yii", "yii2", "user"],
+    "description": "Yii2 Simple User Module",
+    "homepage": "https://github.com/MihailDev/yii2-user",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "minimum-stability":"stable",
+    "authors": [
+        {
+            "name": "Mihail",
+            "email": "mihail.kucher@gmail.com",
+            "homepage": "https://github.com/MihailDev",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"mihaildev\\user\\": ""}
+    },
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "extra": {
+      "asset-installer-paths": {
+        "npm-asset-library": "vendor/npm",
+        "bower-asset-library": "vendor/bower"
+      }
+    }
+}
